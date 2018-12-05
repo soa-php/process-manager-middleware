@@ -1,0 +1,18 @@
+{
+  "name": "soa-php/process-manager-middleware",
+  "description": "List of middlewares to empower your event bus",
+  "license": "MIT",
+  "require": {
+    "php": "^7.2",
+    "soa-php/process-manager": "^1.0",
+    "soa-php/identifier-generator": "^1.0",
+    "soa-php/message-store": "^1.0",
+    "soa-php/traceability": "^1.0",
+    "martinezdelariva/hydrator": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Soa\\ProcessManagerMiddleware\\": "src/"
+    }
+  }
+}
